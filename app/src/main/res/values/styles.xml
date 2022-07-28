@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="login_edit">
+        <item name="android:layout_width">match_parent</item><!--设置组件的宽度与父窗体对齐-->
+        <item name="android:height">45dp</item><!--设置组件的高度为45dp-->
+        <item name="android:textColor">@color/edit_color</item><!--设置字体颜色为白色-->
+        <item name="android:background">@drawable/edit_loging_selector</item> <!--设置背景为edituser_selector-->
+        <item name="android:layout_marginLeft">30dp</item><!--设置离左边元素的边缘的距离30dp-->
+        <item name="android:layout_marginRight">30dp</item><!--设置离右边元素的边缘的距离30dp-->
+        <item name="android:maxLength">20</item><!--设置最多可输入20个字符  -->
+        <item name="android:textColorHint">@color/hint_textColor</item><!--设置提示字体的颜色为颜色资源文件中定义的hint_textColor-->
+        <item name="android:textSize">15sp</item><!--19.设置字体大小为尺寸资源文件定义的login_textsize-->
+        <item name="android:layout_gravity">center_horizontal</item><!--定义组件相对于父窗体水平居中对齐-->
+        <item name="android:drawablePadding">8dp</item><!--设置text与drawable(图片)的间隔为8-->
+        <item name="android:singleLine">true</item><!--设置为单行文本显示-->
+    </style>
+    <style name="main_RadioButton">
+        <item name="android:layout_height">match_parent</item><!--组件高度-->
+        <item name="android:layout_width">0dp</item><!--组件宽度-->
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_weight">1</item><!--权重-->
+        <item name="android:button">@null</item><!--按钮样式隐藏-->
+        <item name="android:drawablePadding">5dp</item><!--内边距-->
+        <item name="android:gravity">center_horizontal</item><!--对齐方式-->
+        <item name="android:textColor">@color/public_green</item><!--组件文本颜色-->
+        <item name="android:textSize">@dimen/Navigation_RadioButtonsize</item><!--修改组件文本字体大小-->
+    </style>
+    <style name="personal_Liner">
+        <item name="android:background">#fff</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="Theme.HealthFood" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

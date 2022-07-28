@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_textsize">30sp</dimen><!--字体大小一般用sp-->
+    <dimen name="edit_dimens">10dp</dimen>
+    <dimen name="Navigation_RadioButtonsize">10sp</dimen>
+</resources>

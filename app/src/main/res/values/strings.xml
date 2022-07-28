@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">良心食品</string>
+    <string name="login_title">登入</string>
+    <string name="username">手机号/邮箱</string>
+    <string name="password">密&#160;码</string>
+    <string name="forgetpsw">忘记密码？点击找回</string>
+    <string name="nouser">还没有账号？</string>
+    <string name="reg">注册</string>
+
+</resources>
